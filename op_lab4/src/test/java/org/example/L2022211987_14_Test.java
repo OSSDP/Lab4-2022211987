@@ -19,7 +19,7 @@ public class L2022211987_14_Test {
         Solution14 solution = new Solution14();
         String input1 = "25525511135";
         List<String> result1 = solution.restoreIpAddresses(input1);
-        assertNull(result1);
+        assertnotNull(result1);
         assertTrue(result1.contains("255.255.11.135") && result1.contains("255.255.111.35"));
     }
 
